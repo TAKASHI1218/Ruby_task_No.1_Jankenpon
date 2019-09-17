@@ -20,7 +20,7 @@ class Player
     puts "1: チョキ"
     puts "2: パー"
       player_hand = gets.chomp
-      if player_hand <= "2" && player_hand >= "0"
+      if player_hand == "2" || player_hand == "1" || player_hand == "0"
         return player_hand
       else
         puts "0~2を入力してください。"
